@@ -61,7 +61,9 @@ main {
 .skill-text p {
   font-weight:bold;
 }
-
+footer p {
+  text-align: center;
+}
 p {
   font-size: 22px;
 }
@@ -80,3 +82,29 @@ p {
   color: black;
 }
 
+.grid-container {
+  width: 100%;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 33.33%;
+  padding: 20px;
+  background-color: #e5e3e3;
+}
+
+[class*='col-'] > p {
+  background-color: #CECECE;
+  text-align: center;
+  color: black;
+}
+
+.box-image {
+  width: 350px;
+  height: 350px;
+}
+
+.job-description {
+  text-align: center;
+}
