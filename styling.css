@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box; /*used this as border-box allows for easier sizing*/
   box-sizing: border-box;
 }
 
@@ -26,9 +26,6 @@ main {
   padding: 0 10px;
   max-width: 1200px;
 }
-.article {
-  float: left;
-}
 
 .intro {
   width: 100%;
@@ -51,7 +48,6 @@ main {
   font-weight: bold;
 }
 
-
 .introduction-text {
   float: left;
   max-width: 800px;
@@ -61,6 +57,7 @@ main {
 .skill-text p {
   font-weight:bold;
 }
+
 footer p {
   text-align: center;
 }
@@ -86,7 +83,7 @@ p {
   width: 100%;
 }
 
-[class*='col-'] {
+[class*='col-'] { /*styles the columns for prev projs*/
   float: left;
   min-height: 1px;
   width: 33.33%;
@@ -94,7 +91,7 @@ p {
   background-color: #e5e3e3;
 }
 
-[class*='col-'] > p {
+[class*='col-'] > p {/*for the proj descriptions*/
   background-color: #CECECE;
   text-align: center;
   color: black;
