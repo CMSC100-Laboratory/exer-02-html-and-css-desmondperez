@@ -1,0 +1,82 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  font-family: 'Open Sans';
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans';
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1200px;
+}
+.article {
+  float: left;
+}
+
+.intro {
+  width: 100%;
+  margin-top: 30px;
+  display:inline-block;
+}
+
+.profile-image {
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
+.introduction-text-header {
+  float: left;
+  max-width: 800px;
+  margin-left: 40px;
+  font-size: 150px;
+  margin-bottom: -20px;
+  font-weight: bold;
+}
+
+
+.introduction-text {
+  float: left;
+  max-width: 800px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.skill-text p {
+  font-weight:bold;
+}
+
+p {
+  font-size: 22px;
+}
+
+.introduction-text-header p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.h3 {
+  text-align: left;
+}
+
+.subheading {
+  font-family: 'Open Sans';
+  color: black;
+}
+
